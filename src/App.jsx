@@ -8,6 +8,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/video/:categoryId/:videoId' element={<Video/>}/>
       </Routes>
     </div>
   )
